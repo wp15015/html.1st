@@ -1,0 +1,57 @@
+	body{
+		color:#535353;
+		font-size: 13px;
+		line-height: 1.5;}
+	
+	h2{
+		font-size: 185%;
+		border-left: 15px solid #32cd32;
+//		border-top: 1px solid #000000;
+		padding-left: 10px;}
+
+	h3{
+		border: 1px solid #668800;
+		font-size: 154%;
+		padding: 5px;
+		background-color:#FFFFE3;
+		width:500px;}
+
+	h4{
+		font-size: 124%;}
+
+	address{
+		font-size: 85%;
+		font-style: normal;
+		text-align: right;
+		border-top: 1px solid #000000;
+		padding-top: 10px;}
+
+	table{
+		border: 1px solid #666666;
+		border-collapse: collapse;}
+	th{
+		border-top: 1px solid #999999;
+		padding: 10px;
+		background-color: #cccccc;}
+
+	td{
+		border: 1px solid #999999;
+		padding: 10px;
+		background-color: #eeeeee}
+
+
+
+	body {　/*ななめ縞*/
+    background: -moz-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+    background: -webkit-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+    background: linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+    -moz-background-size: 20px 20px;
+    -webkit-background-size: 20px 20px;
+    background-size: 20px 20px;
+}
+
+//	body{
+		background-color: black;}
