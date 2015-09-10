@@ -1,57 +1,109 @@
 	body{
 		color:#535353;
 		font-size: 13px;
-		line-height: 1.5;}
-	
+		line-height: 1.5;
+		text-align: center;
+	}
+
+	#wrap{
+		width: 790px;
+		margin: 0 auto;
+		text-align: left;
+	}
+
+	.itemphoto{
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 50px;
+		box-shadow: 10px 10px 10px red;
+	}
+
 	h2{
 		font-size: 185%;
 		border-left: 15px solid #32cd32;
 //		border-top: 1px solid #000000;
-		padding-left: 10px;}
+		padding-left: 10px;
+	}
 
 	h3{
 		border: 1px solid #668800;
 		font-size: 154%;
 		padding: 5px;
 		background-color:#FFFFE3;
-		width:500px;}
+		clear: left;
+//		width:500px;
+	}
 
 	h4{
-		font-size: 124%;}
+		font-size: 124%;
+	}
 
 	address{
 		font-size: 85%;
 		font-style: normal;
 		text-align: right;
 		border-top: 1px solid #000000;
-		padding-top: 10px;}
+		padding-top: 10px;
+		clear: left;
+	}
 
 	table{
 		border: 1px solid #666666;
-		border-collapse: collapse;}
+		border-collapse: collapse;
+	}
 	th{
 		border-top: 1px solid #999999;
 		padding: 10px;
-		background-color: #cccccc;}
+		background-color: #cccccc;
+	}
 
 	td{
 		border: 1px solid #999999;
 		padding: 10px;
-		background-color: #eeeeee}
+		background-color: #eeeeee
+	}
+
+	ul{
+		background-color: #88aa00;
+		padding: 10px 20px;
+		box-shadow: 10px 10px 50px #99aa00;
+	}
+	li{
+		list-style-type: none;
+		display: inline;
+		padding-right: 20px;
+	}
+	li a:link{
+		color: #ffffff;
+	}
+	li a:visited{
+		color: #eeee00;
+	}
+	li a:hover{
+		color: #000000;
+		text-decoration: none;
+	}
+
+
 
 
 
 	body {　/*ななめ縞*/
-    background: -moz-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
-        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
-    background: -webkit-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
-        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
-    background: linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
-        #6CF 50%, #6CF 75%, #FF9 75%,#FF9);
-    -moz-background-size: 20px 20px;
-    -webkit-background-size: 20px 20px;
-    background-size: 20px 20px;
-}
+		background: -moz-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+			#6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+		background: -webkit-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+			#6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+		background: linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
+			#6CF 50%, #6CF 75%, #FF9 75%,#FF9);
+		-moz-background-size: 20px 20px;
+		-webkit-background-size: 20px 20px;
+		background-size: 20px 20px;
+	}
 
-//	body{
-		background-color: black;}
+//		body{
+//		background-color: black;
+	}
+
+	.top_photo{
+		box-shadow: 10px 10px 50px black;
+	}
