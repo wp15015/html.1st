@@ -23,6 +23,7 @@
 		border-left: 15px solid #32cd32;
 //		border-top: 1px solid #000000;
 		padding-left: 10px;
+		clear-left;
 	}
 
 	h3{
@@ -64,31 +65,61 @@
 	}
 
 	ul{
-		background-color: #88aa00;
-		padding: 10px 20px;
-		box-shadow: 10px 10px 50px #99aa00;
+		background-color: #88aa88;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		font-size: 12px;
+		overflow: hidden;
+
+//		box-shadow: 10px 10px 50px #99aa00;
 	}
 	li{
-		list-style-type: none;
-		display: inline;
-		padding-right: 20px;
+//		list-style-type: none;
+//		display: inline;
+//		padding-right: 20px;
+
+		float: left;
+		margin-right: 15px;
 	}
+	
+	li:first-child a {
+			border-left: solid 1px #ffffff
+	}
+
 	li a:link{
 		color: #ffffff;
+		text-decoration: none;
 	}
 	li a:visited{
 		color: #eeee00;
 	}
 	li a:hover{
 		color: #000000;
-		text-decoration: none;
+//		text-decoration: none;
+
+		border-bottom: solid 5px #00ccff;
+	}
+
+	li a{
+		display: block;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		border-bottom: solid 5px transparent;
+	}
+
+	li{
+		float:left;
+		margin-right: 15px;
+		width: 100px;
+		text-align: center;
+		border-right: solid 1px #ffffff;
 	}
 
 
 
 
-
-	body {　/*ななめ縞*/
+/*	body {　/*ななめ縞*/
 		background: -moz-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
 			#6CF 50%, #6CF 75%, #FF9 75%,#FF9);
 		background: -webkit-linear-gradient(left top, #6CF, #6CF 25%, #FF9 25%, #FF9 50%,
@@ -99,7 +130,7 @@
 		-webkit-background-size: 20px 20px;
 		background-size: 20px 20px;
 	}
-
+*/
 //		body{
 //		background-color: black;
 	}
